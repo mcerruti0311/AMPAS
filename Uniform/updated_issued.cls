@@ -1,6 +1,7 @@
-// Varialbes to set
+// Varialbes to set before runtime.  To make record updates change goForUpdate to true
 boolean goForUpdate = false;
 Integer runSize = 10;
+
 datetime returnDateTime = datetime.now();
 
 Uniform_issuance__c [] issuedUniforms = 
